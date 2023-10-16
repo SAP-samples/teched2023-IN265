@@ -1,5 +1,3 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-IN265)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-IN265)
-
 # IN265 - Event-Driven Architecture with SAP Integration Suite, Advanced Event Mesh
 
 ![Pic 1](/./images/IN261-1.jpeg)
