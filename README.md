@@ -4,29 +4,23 @@
 
 ## Description
 
-An event-driven architecture is a software architecture using events as the core means for interaction between its software components. This includes capture, communication, processing, and persistence of events.  Event-driven architectures represent an architectural approach and aren’t based on a specific programming language.
+An event-driven architecture is a software architecture using events as the core means for interaction between its software components. One of the main components of an EDA are Event Brokers. SAP's flagship event broker is SAP Integration Suite, advanced event mesh.
 
-In this session we will get a broad understanding of EDAs in an SAP context. 
+In this session we will take a deep dive into SAP Integration Suite, advanced event mesh.
 
 ## Overview
 
 SAP Integration Suite, advanced event mesh is a fully managed event streaming and management service that enables enterprise-wide and enterprise-grade event-driven architecture. It is a full blown, general purpose Event Mesh. AEM offers enterprise-grade performance, reliability, security and governance. It scales to very large use cases – and very means very very very in this case.
 
+- Advanced Event Mesh is a distributed mesh of event brokers that can be deployed across environments, both in the cloud and on-premise
+- It offers a full purpose set of eventing services covering all relevant use cases
+- AEM supports event streaming, event management and event monitoring
+- Brokers fully scale as required and come in T-shirt sizes to perfectly fit different needs
+
 ![Pic 1](/./images/IN265-2.png)
 
-This session allows you to get an end-to-end impression of event-driven architecture hands-on. Starting from the event source, you will follow the flow of outbound events via the event broker to the event consumer.
+SAP Integration Suite, advanced event mesh features touched, some just shortly, some in more detail, include:
 
-As an event source we will use SAP S/4HANA Cloud and SAP S/4HANA. SAP Integration Suite, advanced event mesh will be our event broker, and events are consumed by an HTML/JS based event consumer.
-
-The session will be broad rather than deep, with the goal to provide a highspeed end-to-end experience, with a specific focus on SAP Integration Suite, advanced event mesh. You will be able to experience basic and advanced features of it.
-
-During the free flow part towards the end you can use the HTML/JS based event consumer and an HTML/JS based event producer to try out different features of SAP Integration Suite, advanced event mesh.
-
-Features touched, some just shortly, some in more detail, include:
-
-- SAP S/4HANA Cloud standard notification events
-- SAP S/4HANA Event-Enablement Add-On Events
-- SAP Business Accelerator Hub
 - SAP Integration Suite, advanced event mesh queues
 - SAP Integration Suite, advanced event mesh Cluster Manager
 - SAP Integration Suite, advanced event mesh Mesh Manager
@@ -44,12 +38,11 @@ Preparation and Setup
 
 - [Getting Started](exercises/ex0/)
 
-API Business Hub 
+SAP Integration Suite, advanced event mesh 
 
-- [Exercise 1 - Explore SAP S/4HANA Cloud Standard Events in SAP Business Accelerator Hub](exercises/ex1/)
+- [Exercise 1 - Explore SAP S/4HANA Integration Suite, advanced event mesh](exercises/ex1/)
 
-    - [Exercise 1.1 - Look up BusinessPartner events in SAP Business Accelerator Hub](https://github.com/SAP-samples/teched2023-IN261/tree/main/exercises/ex1#exercise-11---look-up-the-businesspartner-events-in-sap-business-accelerator-hub)
-     - [Exercise 1.2 - Look up SalesOrder events in SAP Business Accelerator Hub](https://github.com/SAP-samples/teched2023-IN261/blob/main/exercises/ex1/README.md#exercise-12---look-up-the-salesorder-events-in-sap-business-accelerator-hub)
+    - [Exercise 1.1 - Log into Advanced Event Mesh]()
 
 ## User Data and Password 
 
