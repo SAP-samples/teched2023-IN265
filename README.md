@@ -19,6 +19,19 @@ SAP Integration Suite, advanced event mesh is a fully managed event streaming an
 - AEM supports event streaming, event management and event monitoring
 - Brokers fully scale as required and come in T-shirt sizes to perfectly fit different needs
 
+SAP Integration Suite, advanced event mesh
+
+- is a general purpose, multi-site EDA platform and portal
+- allows for SAP to SAP, SAP to Everything and Everything to Everything scenarios
+- supports distributed networks of event brokers deployed in different clouds and on-premises
+- can be deployed in your cloud of choice or in your on premises K8S
+- provides sophisticated authentication and security features like Kerberos, OAuth or TLS
+- offers fine-grained filtering options
+- allows for real-time monitoring, capacity insights and distributed tracing
+- provides support for all relevant protocols like JMS, REST, AMQP and MQTT, plus SMF.
+- allows to start small and upgrade to bigger T-shirt sizes when your business grows
+- provides an outstanding performance up to billions of events per day
+
 SAP Integration Suite, advanced event mesh features touched, some just shortly, some in more detail, include:
 
 - SAP Integration Suite, advanced event mesh queues
