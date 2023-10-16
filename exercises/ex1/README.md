@@ -2,8 +2,6 @@
 
 We will look for and at Business Partner events on the SAP Business Accelerator Hub, and will see how to enable these events in SAP S/4HANA Cloud. 
 
-![Pic 1](/./images/ex1-1.png)
-
 ## Exercise 1.1 - Look up the BusinessPartner events in SAP Business Accelerator Hub.
 
 You will see how easy it is to look up available events in the SAP Business Accelerator Hub. Overall, SAP Business Accelerator Hub provides you with information on standard APIs and events available for selected SAP backends.
