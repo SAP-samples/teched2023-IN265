@@ -1,6 +1,6 @@
 # IN265 - Event-Driven Architecture with SAP Integration Suite, Advanced Event Mesh
 
-![Pic 1](/./images/IN261-1.jpeg)
+![Pic 1](/./images/IN265-1.jpeg)
 
 ## Description
 
@@ -12,7 +12,7 @@ In this session we will get a broad understanding of EDAs in an SAP context.
 
 SAP Integration Suite, advanced event mesh is a fully managed event streaming and management service that enables enterprise-wide and enterprise-grade event-driven architecture. It is a full blown, general purpose Event Mesh. AEM offers enterprise-grade performance, reliability, security and governance. It scales to very large use cases – and very means very very very in this case.
 
-![Pic 1](/./images/IN261-2.png)
+![Pic 1](/./images/IN265-2.png)
 
 This session allows you to get an end-to-end impression of event-driven architecture hands-on. Starting from the event source, you will follow the flow of outbound events via the event broker to the event consumer.
 
