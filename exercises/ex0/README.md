@@ -1,26 +1,15 @@
-# Level 1 Heading
+# Getting Started
 
-In this exercise, you will...
+Before you start with the actual tutorial, run through the following preparation steps.
 
-## Level 2 Heading
+## Download or clone the tools for the session
 
-After completing these steps you will have....
+There are two options to get access to the tools needed later. 
 
-1.	Click here.
-<br>![](/exercises/ex0/images/00_00_0010.png)
+### Option 1 - Clone the GitHub repository 
 
-2.	Insert this code.
-``` abap
- DATA(params) = request->get_form_fields(  ).
- READ TABLE params REFERENCE INTO DATA(param) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
-```
+To check out the project, clone this GitHub repository by opening a terminal (cmd in Windows search) and copying the below into the terminal window:
 
 ## Summary
 
-Now that you have ... 
-Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
+Now that you have run through the preparation, continue to [Exercise 1](../ex1/README.md)
