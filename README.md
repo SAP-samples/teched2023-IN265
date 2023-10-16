@@ -1,6 +1,6 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-IN265)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-IN265)
 
-# Session ID - Session Title
+# In265 - Event-Driven Architecture with SAP Integration Suite, Advanced Event Mesh
 
 ## Description
 
