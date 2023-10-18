@@ -105,5 +105,5 @@ To make this easier for you, find the topics below for copy and paste.
 
 You've now explored topic hierarchies and wildcards.
 
-Continue to - [Exercise 6 - Wrap Up](../ex6/README.md)
+Continue to - [Exercise 4 - Event Replay](../ex4/README.md)
 
