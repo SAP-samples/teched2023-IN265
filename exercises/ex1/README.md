@@ -94,7 +94,7 @@ HINT: If you cannot see the tiles, uncheck the Only show my services box
 
 ![Pic 9](/./images/ex1-9.png)   
 
-## Exercise 2.3 - Create a queue subscription for SAP S/4HANA events in Advanced Event Mesh
+## Exercise 2.3 - Create a queue subscription in Advanced Event Mesh
 
 10. Click on your queue
 
