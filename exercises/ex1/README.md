@@ -54,7 +54,7 @@ On the left side of the screen are the main sections to navigate through:
 - Replay: where you can enable replay, to allow the broker to send previous messages again NOTE: Solace brokers do not use replay for recovery of persistent data (like Kafka)... there is a more fine-grained approach in Solace where each individual message is ACKnowledged to the broker when the consumer application is done with it
 - Try Me! this is where we will connect two WebSocket test applications
 
-## Exercise 2.2 - Create a queue in Advanced Event Mesh
+## Exercise 1.2 - Create a queue in Advanced Event Mesh
 
 After completing these steps you will have created a queue in Advanced Event Mesh.
   
@@ -94,7 +94,7 @@ HINT: If you cannot see the tiles, uncheck the Only show my services box
 
 ![Pic 9](/./images/ex1-9.png)   
 
-## Exercise 2.3 - Create a queue subscription in Advanced Event Mesh
+## Exercise 1.3 - Create a queue subscription in Advanced Event Mesh
 
 10. Click on your queue
 
@@ -115,6 +115,10 @@ HINT: Please note that this topic is very simple to facilitate this exercise. In
 15. Check on whether your queue subscription got created
 
 ![Pic 12](/./images/ex1-12.png)  
+
+## Exercise 1.4 - Send an event from the Try Me! tool to your topic
+
+16. 
   
 ## Summary
 
