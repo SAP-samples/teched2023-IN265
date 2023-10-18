@@ -37,7 +37,7 @@ Some examples of AEM topic subscriptions, and topics that they match:
 
 Now that we have learned about topic hierarchies and have a great tool like Try Me ! at hand. let's play around with topic hierarchies.
 
-![Pic 5](/./images/ex4-5.png)
+![Pic 5](/./images/ex3-5.png)
 
 For that, we will use animal topics ...
 
