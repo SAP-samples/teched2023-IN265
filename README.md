@@ -66,7 +66,8 @@ SAP Integration Suite, advanced event mesh
  
 - [Exercise 3 - Topic Hierarchies](exercises/ex3/)
 
-    - [Exercise 3.1 - ]()
+      - [Exercise 3.1 - Learn about Topic Hierarchies and Wildcards]()
+    - [Exercise 3.2 - Practice Topic Hierarchies and Wildcards using Try Me !]()   
 
 - [Exercise 4 - Event Replay](exercises/ex4/)
 
