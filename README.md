@@ -66,7 +66,7 @@ SAP Integration Suite, advanced event mesh
  
 - [Exercise 3 - Topic Hierarchies](exercises/ex3/)
 
-    - [Exercise 3.1 - Learn about Topic Hierarchies and Wildcards]([https://github.com/SAP-samples/teched2023-IN265/tree/main](https://github.com/SAP-samples/teched2023-IN265/tree/main/exercises/ex3#subscription-wildcards)
+    - [Exercise 3.1 - Learn about Topic Hierarchies and Wildcards](https://github.com/SAP-samples/teched2023-IN265/tree/main](https://github.com/SAP-samples/teched2023-IN265/tree/main/exercises/ex3#subscription-wildcards)
     - [Exercise 3.2 - Practice Topic Hierarchies and Wildcards using Try Me !](https://github.com/SAP-samples/teched2023-IN265/tree/main/exercises/ex3#exercise-52-practice-topic-hierarchies-and-wildcards-using-try-me----animal-edition)   
 
 - [Exercise 4 - Event Replay](exercises/ex4/)
