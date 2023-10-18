@@ -118,11 +118,41 @@ HINT: Please note that this topic is very simple to facilitate this exercise. In
 
 ## Exercise 1.4 - Send an event from the Try Me! tool to your topic
 
-16. 
+16. Keep your current browser tab open and go back to the other/main tab and click on Try Me!
+
+![Pic 17](/./images/ex1-17.png)  
+
+17. Click on Connect in the Publisher Section 
+
+![Pic 18](/./images/ex1-18.png)  
+
+18. Enter your topic
+
+![Pic 19](/./images/ex1-19.png)  
+
+19. Click Publish to send your message (most likely Hello World!) to your topic
+
+20. You should see 1 message published in the Publish Status
+
+![Pic 20](/./images/ex1-20.png)  
+
+21. Switch back to the other tabe / the broker level tab and go to your queue and click on Summary
+
+![Pic 21](/./images/ex1-21.png)  
+
+22. You should see 1 Message Queued
+
+![Pic 22](/./images/ex1-22.png)  
+
+You have sent a message to a topic, and via the subscription this message has been stored in your queue.
+
+23. You can leave it like this or you can play the same game a little longer: go back to the Try Me! tool and just click publish, and see in the other tab how the count of messages gets increased (don't forget to refresh the page).
+
+![Pic 23](/./images/ex1-23.png)  
   
 ## Summary
 
-You have now created a queue in AEM and have subscribed to events coming in from SAP S/4HANA (via a webhook from SAP Event Mesh).
+You have now created a queue in AEM and have subscribed to events via a topic. You have sent events to this topic using the Try me! tool. 
 
 Please continue with [Exercise 2 - Exercise 2 Description](../ex2/README.md)
 
