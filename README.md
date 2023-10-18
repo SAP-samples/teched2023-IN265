@@ -64,15 +64,15 @@ SAP Integration Suite, advanced event mesh
 
     - [Exercise 2.1 - ]()
  
- [Exercise 3 - ](exercises/ex3/Topic Hierarchies)
+- [Exercise 3 - ](exercises/ex3/Topic Hierarchies)
 
     - [Exercise 3.1 - ]()
 
- [Exercise 4 - ](exercises/ex4/Event Replay)
+- [Exercise 4 - ](exercises/ex4/Event Replay)
 
     - [Exercise 4.1 - ]()
 
- [Exercise 5 - ](exercises/ex5/Event-Driven in Action and Sample Architecture)
+- [Exercise 5 - ](exercises/ex5/Event-Driven in Action and Sample Architecture)
 
     - [Exercise 5.1 - ]()
 
