@@ -104,7 +104,7 @@ HINT: If you cannot see the tiles, uncheck the Only show my services box
 
 12. Click on +Subscription
 
-13. Enter the topic into the field. Use BLR_topic_XX as the topic, and replace XX with your group/participant number.
+13. Enter the topic into the field. Use BLR_topic_XXX as the topic, and replace XXX with your group/participant number.
 
 ![Pic 11](/./images/ex1-11.png)  
 
