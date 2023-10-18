@@ -1,10 +1,10 @@
-# Exercise 5 - Explore Topic Hierarchies and Wildcards
+# Exercise 3 - Explore Topic Hierarchies and Wildcards
 
 After completing these steps you will have learned about topic hierarchies and wildcards and how to use them
 
 ![Pic 1](/./images/ex3-1.png)
 
-## Exercise 5.1 Learn about Topic Hierarchies and Wildcards
+## Exercise 3.1 Learn about Topic Hierarchies and Wildcards
 
 Advanced Event Mesh supports a hierarchical topic structure, which mean you can be very descriptive in defining your topic. Use it to describe the contents/intent of your message payload data. No need to use flat, coarse-grained topic labels like other brokers. 
 
@@ -33,7 +33,7 @@ Some examples of AEM topic subscriptions, and topics that they match:
 
 ![Pic 2](/./images/ex3-2.png)
 
-## Exercise 5.2 Practice Topic Hierarchies and Wildcards using Try Me ! - Animal Edition
+## Exercise 3.2 Practice Topic Hierarchies and Wildcards using Try Me ! - Animal Edition
 
 Now that we have learned about topic hierarchies and have a great tool like Try Me ! at hand. let's play around with topic hierarchies.
 
