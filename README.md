@@ -60,19 +60,19 @@ SAP Integration Suite, advanced event mesh
     - [Exercise 1.3 - Create Queue]()
     - [Exercise 1.4 - Try me! tool]()
 
-- [Exercise 2 - ](exercises/ex2/Persistent and Non-Persistent Quality of Service)
+- [Exercise 2 - Persistent and Non-Persistent Quality of Service](exercises/ex2/)
 
     - [Exercise 2.1 - ]()
  
-- [Exercise 3 - ](exercises/ex3/Topic Hierarchies)
+- [Exercise 3 - Topic Hierarchies](exercises/ex3/)
 
     - [Exercise 3.1 - ]()
 
-- [Exercise 4 - ](exercises/ex4/Event Replay)
+- [Exercise 4 - Event Replay](exercises/ex4/)
 
     - [Exercise 4.1 - ]()
 
-- [Exercise 5 - ](exercises/ex5/Event-Driven in Action and Sample Architecture)
+- [Exercise 5 - Event-Driven in Action and Sample Architecture](exercises/ex5/)
 
     - [Exercise 5.1 - ]()
 
