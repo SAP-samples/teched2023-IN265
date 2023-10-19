@@ -1,4 +1,4 @@
-![image](https://github.com/SAP-samples/teched2023-IN265/assets/52156823/d8b605a7-0d43-41ed-9294-650480fb6767)# Exercise 5 - Event-Driven in Action and Sample Architecture
+# Exercise 5 - Event-Driven in Action and Sample Architecture
 
 You have worked hard in the last about 100 minutes. Now it is time for some fun. Well, fun with some additional learning that is.
 
