@@ -22,7 +22,7 @@ Use Case: Christian would like to develope a distributed smartphone-based game. 
 - Race display for participants
 - Mobile frontend (JavaScript or Android/iOS app)
 
-## Exercise 5.2 How to build this game on Advanced Event Mesh
+## Exercise 5.2 How to build this game using Advanced Event Mesh
 
 Building the app the event-driven Advanced Event Mesh way:
 
@@ -60,7 +60,7 @@ Send each and every row event?
 - Can easily scale up to 10s or 100s of messages per second per player
 - AEM can easily handle this and supports thousands of messages per second
 
-## Exercise 5.2 - Let's Play!
+## Exercise 5.3 - Let's Play!
 
 Now, after all the hard work, it is time for a good game of Dragon Boat ...
 
