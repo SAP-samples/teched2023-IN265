@@ -154,5 +154,5 @@ You have sent a message to a topic, and via the subscription this message has be
 
 You have now created a queue in AEM and have subscribed to events via a topic. You have sent events to this topic using the Try me! tool. 
 
-Please continue with [Exercise 2 - Persistent and Non-Persistent Quality of Service](../ex2/README.md)
+Please continue with [Exercise 2 - Explore Topic Hierarchies and Wildcards](../ex2/README.md)
 
