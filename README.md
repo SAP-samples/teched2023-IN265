@@ -60,15 +60,15 @@ SAP Integration Suite, advanced event mesh
     - [Exercise 1.3 - Create a Subscription in Advanced Event Mesh](https://github.com/SAP-samples/teched2023-IN265/tree/main/exercises/ex1#exercise-13---create-a-queue-subscription-in-advanced-event-mesh)
     - [Exercise 1.4 - Send an event from the Try Me! Tool to your Topic](https://github.com/SAP-samples/teched2023-IN265/tree/main/exercises/ex1#exercise-14---send-an-event-from-the-try-me-tool-to-your-topic)
 
-- [Exercise 2 - Persistent and Non-Persistent Quality of Service](exercises/ex2/)
+- [Exercise 2 - Topic Hierarchies](exercises/ex2/)
 
-    - [Exercise 2.1 - ]()
+    - [Exercise 2.1 - Learn about Topic Hierarchies and Wildcards](https://github.com/SAP-samples/teched2023-IN265/tree/main/exercises/ex3#subscription-wildcards)
+    - [Exercise 2.2 - Practice Topic Hierarchies and Wildcards using Try Me !](https://github.com/SAP-samples/teched2023-IN265/tree/main/exercises/ex3#exercise-52-practice-topic-hierarchies-and-wildcards-using-try-me----animal-edition)   
+
+- [Exercise 3 - Persistent and Non-Persistent Quality of Service](exercises/ex2/)
+
+    - [Exercise 3.1 - ]()
  
-- [Exercise 3 - Topic Hierarchies](exercises/ex3/)
-
-    - [Exercise 3.1 - Learn about Topic Hierarchies and Wildcards](https://github.com/SAP-samples/teched2023-IN265/tree/main/exercises/ex3#subscription-wildcards)
-    - [Exercise 3.2 - Practice Topic Hierarchies and Wildcards using Try Me !](https://github.com/SAP-samples/teched2023-IN265/tree/main/exercises/ex3#exercise-52-practice-topic-hierarchies-and-wildcards-using-try-me----animal-edition)   
-
 - [Exercise 4 - Event Replay](exercises/ex4/)
 
     - [Exercise 4.1 - ]()
