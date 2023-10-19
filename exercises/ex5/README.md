@@ -6,14 +6,14 @@ You have worked hard in the last about 100 minutes. Now it is time for some fun.
 
 Use Case: Christian would like to develope a distributed smartphone-based game. He is a polular guy and has lots of friends - so he expects that up to 100 of his friends could participate in a session of the game. The lower limit would be two players. The game should support up to 4 teams. Since Christian loves racing games and is big on boats, he decides for a DRAGON BOAT RACE.
 
-Details: Players need to
+###Details: Players need to
 
 - Connect
 - Discover / choose a race
 - Participate by rowing (i.e. tap tap tap)
 - See progess and final results
 
-Needed Components:
+###Needed Components:
 
 - web server to host components
 - Race controller application
@@ -29,20 +29,20 @@ Building the app the event-driven Advanced Event Mesh way:
 - Non-persistent messages for all communication since they are faster and have less latency
 - Definition of topic space for applications to communicate
 
-Topic Space:
+###Topic Space:
 
-boat/meet/query							        // which races are there?
-boat/meet/[MeetId]/join				      // join this particular race
-boat/player/[PlayerId]/prep			    // assigned a race, and a team
-boat/player/[PlayerId]/team/[Team]	// you’ve been assigned to this team
-boat/race/[RaceId]/marks			    	// on your marks!  5 second countdown
-boat/meet/[RaceId]/ready				    // player reports ready for race
-boat/race/[RaceId]/[PlayerID]/row	  // each stroke, each tap
-boat/race/[RaceId]/stats				    // race progress stats, every 500ms
+- boat/meet/query							        // which races are there?
+- boat/meet/[MeetId]/join				      // join this particular race
+- boat/player/[PlayerId]/prep			    // assigned a race, and a team
+- boat/player/[PlayerId]/team/[Team]	// you’ve been assigned to this team
+- boat/race/[RaceId]/marks			    	// on your marks!  5 second countdown
+- boat/meet/[RaceId]/ready				    // player reports ready for race
+- boat/race/[RaceId]/[PlayerID]/row	  // each stroke, each tap
+- boat/race/[RaceId]/stats				    // race progress stats, every 500ms
 
 Some of these indicate events (join, marks, row), others data (stats)
 
-Design / Implementation examples:
+###Design / Implementation examples:
 
 How to start the race?
 
@@ -58,11 +58,9 @@ Send each and every row event?
 - Can easily scale up to 10s or 100s of messages per second per player
 - AEM can easily handle this and supports thousands of messages per second
 
-
-
 ## Exercise 5.2 Let's Play!
 
-Now ...
+Now, after all the hard work, it is time for a good game of Dragon Boat ...
 
 ## Summary
 
