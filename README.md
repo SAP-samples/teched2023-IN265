@@ -75,8 +75,10 @@ SAP Integration Suite, advanced event mesh
 
 - [Exercise 5 - Event-Driven in Action and Sample Architecture](exercises/ex5/)
 
-    - [Exercise 5.1 - ]()
-
+    - [Exercise 5.1 - A Distributed Smartphone Based Game](https://github.com/SAP-samples/teched2023-IN265/blob/main/exercises/ex5/README.md#exercise-51---a-distributed-smartphone-based-game)
+    - [Exercise 5.2 - How to Build this Game using Advanced Event Mesh](https://github.com/SAP-samples/teched2023-IN265/blob/main/exercises/ex5/README.md#exercise-52-how-to-build-this-game-using-advanced-event-mesh)
+    - [Exercise 5.3 - Let's play!](https://github.com/SAP-samples/teched2023-IN265/blob/main/exercises/ex5/README.md#exercise-53---lets-play)
+      
 ## User Data and Password 
 
 In order to log into Advanced Event Mesh, you will use the email address and password for Advanced Event Mesh provided by the moderators. 
