@@ -105,5 +105,5 @@ To make this easier for you, find the topics below for copy and paste.
 
 You've now explored topic hierarchies and wildcards.
 
-Continue to - [Exercise 3 - Event Replay](../ex2/README.md)
+Continue to - [Exercise 3 - Persistent and Non-Persistent Quality of Service](../ex3/README.md)
 
