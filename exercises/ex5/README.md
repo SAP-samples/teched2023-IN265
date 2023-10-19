@@ -6,14 +6,14 @@ You have worked hard in the last about 100 minutes. Now it is time for some fun.
 
 Use Case: Christian would like to develope a distributed smartphone-based game. He is a polular guy and has lots of friends - so he expects that up to 100 of his friends could participate in a session of the game. The lower limit would be two players. The game should support up to 4 teams. Since Christian loves racing games and is big on boats, he decides for a DRAGON BOAT RACE.
 
-###Details: Players need to
+### Details: Players need to
 
 - Connect
 - Discover / choose a race
 - Participate by rowing (i.e. tap tap tap)
 - See progess and final results
 
-###Needed Components:
+### Needed Components:
 
 - web server to host components
 - Race controller application
@@ -29,7 +29,7 @@ Building the app the event-driven Advanced Event Mesh way:
 - Non-persistent messages for all communication since they are faster and have less latency
 - Definition of topic space for applications to communicate
 
-###Topic Space:
+### Topic Space:
 
 - boat/meet/query							        // which races are there?
 - boat/meet/[MeetId]/join				      // join this particular race
@@ -42,7 +42,7 @@ Building the app the event-driven Advanced Event Mesh way:
 
 Some of these indicate events (join, marks, row), others data (stats)
 
-###Design / Implementation examples:
+### Design / Implementation examples:
 
 How to start the race?
 
