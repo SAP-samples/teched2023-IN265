@@ -70,12 +70,12 @@ By the way, the events will be counted and presented after the event.
 
 Now, after all the hard work, it is time for a good game of Dragon Boat ...
 
-![Pic 2](/./images/ex5-2.png)
+![Pic 4](/./images/ex5-4.png)
 
 ## Summary
 
 In this section you have seen the architecture and the components of a distributed smartphone based game. Then you have rowed a dragan boat ...
 
-![Pic 4](/./images/ex5-4.png)
+
 
 
