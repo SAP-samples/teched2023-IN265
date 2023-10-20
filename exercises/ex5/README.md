@@ -6,7 +6,7 @@ You have worked hard in the last about 100 minutes. Now it is time for some fun.
 
 ## Exercise 5.1 - A Distributed Smartphone Based Game
 
-Use Case: Christian would like to develope a distributed smartphone-based game. He is a polular guy and has lots of friends - so he expects that up to 100 of his friends could participate in a session of the game. The lower limit would be two players. The game should support up to 4 teams. Since Christian loves racing games and is big on boats, he decides for a DRAGON BOAT RACE.
+Use Case: Christian would like to develop a distributed smartphone-based game. He is a polular guy and has lots of friends - so he expects that up to 100 of his friends could participate in a session of the game. The lower limit would be two players. The game should support up to 4 teams. Since Christian loves racing games and is big on boats, he decides for a DRAGON BOAT RACE.
 
 ### Details: Players need to
 
@@ -17,7 +17,7 @@ Use Case: Christian would like to develope a distributed smartphone-based game. 
 
 ### Needed Components:
 
-- web server to host components
+- Web server to host components
 - Race controller application
 - Race display for participants
 - Mobile frontend (JavaScript or Android/iOS app)
@@ -53,6 +53,8 @@ How to start the race?
 - Race controller simply sends one message on: boat/race/[RaceID]/marks
 - By pub/sub design, each player receives the message
 
+![Pic 3](/./images/ex5-3.png)
+
 Send each and every row event?
 
 - Yes! Each and every tap becomes a message. Truly event-driven communication
@@ -60,16 +62,20 @@ Send each and every row event?
 - Can easily scale up to 10s or 100s of messages per second per player
 - AEM can easily handle this and supports thousands of messages per second
 
+By the way, the events will be counted and presented after the event.
+
+![Pic 5](/./images/ex5-5.png)
+
 ## Exercise 5.3 - Let's Play!
 
 Now, after all the hard work, it is time for a good game of Dragon Boat ...
 
-![Pic 1](/./images/ex5-2.png)
+![Pic 2](/./images/ex5-2.png)
 
 ## Summary
 
 In this section you have seen the architecture and the components of a distributed smartphone based game. Then you have rowed a dragan boat ...
 
-
+![Pic 4](/./images/ex5-4.png)
 
 
