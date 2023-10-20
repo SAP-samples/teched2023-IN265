@@ -72,6 +72,15 @@ Now, after all the hard work, it is time for a good game of Dragon Boat ...
 
 ![Pic 4](/./images/ex5-4.png)
 
+To get the game started:
+
+1. Take out your smartphone
+2. Take a picture of the QR-Code
+3. Click on the Link
+4. State that you want to join the race
+5. Wait until we start the game
+6. Once the count down finishes, Tap Tap Tap your smartphone
+
 ## Summary
 
 In this section you have seen the architecture and the components of a distributed smartphone based game. You have looked at a topic structure for the game. 
