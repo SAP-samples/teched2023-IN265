@@ -29,6 +29,25 @@ If an event message is sent with `Persistent Delivery Mode` set to `Direct`, whi
 
 ### Experimenting with Persistency
 
+In this section we are going to play a bit around with persistency to see what this really means in a practical example using the broker's built-in Try-Me tab.
+
+> Note, there are two different `Try-Me` tabs in AEM, one on the Cloud Console or cockpit on each service and one built into the admin UI of each broker service themself. You have used the former one previously. We are going to use the latter one now.
+
+So, let's open up the broker UI's `Try-Me` tab next.
+
+1. Go to the AEM Console and click on Cluster Manager.
+![AEM Console](images/AEMCloudConsoleSelectClusterManager.png)
+
+2. Click on the same service you have used previously.
+![AEM services](images/ex3-2.png)
+
+3. Go to the Management tab and click on the Queues tile.
+![AEM Manage Queues](images/AEMServiceManagement.png)
+
+13. Enter the topic into the field. Use BLR_topic_XXX as the topic, and replace XXX with your group/participant number.
+
+20. Enter the queue name: BLR_*** (replace *** with your number)
+
 ## Summary
 
 You've now explored topic hierarchies and wildcards.
