@@ -14,13 +14,51 @@ Replay can be performed on a (non-partitioned) queue or topic endpoint. When ini
 
 ## Exercise 4.2 Experimenting with Replay
 
+1. Go to the AEM Console and click on Cluster Manager.
+![AEM Console](images/AEMCloudConsoleSelectClusterManager.png)
 
-For more information about Replay and/or acknowledging messages, check the following links:
-[Message Replay](https://docs.solace.com/Overviews/Message-Replay-Overview.htm?Highlight=replay)
+2. Click on the same service you have used previously.
+![AEM services](images/ex3-2.png)
+
+3. Go to the Management tab and click on the Queues tile.
+![AEM Manage Queues](images/AEMServiceManagement.png)
+
+4. Click on Replay on the left hand menu to check that Replay is enabled.
+![AEM Replay](images/AEMReplay.png)
+
+> You should see a summary view with some stats on number of messages stored in the replay log and storage space allocated for replay. Feel free to explore some of the other tabs.
+
+5. Return to the queue overview and find your queue, select and click on the action menu.
+![AEM Queue Overview](images/AEMQueueOverview.png)
+
+6. Select "Delete All Messages" to clear the queue.
+![AEM Clear Queue](images/AEMQueueOverviewClearMessages.png)
+
+> This will remove all currently stored messages from the queue and you will see the "Messages Queued" counter drop to zero for your queue.
+
+7. Next, open the action menu again and select "Start Replay".
+![AEM Start Replay](images/AEMQueueStartReplay.png)
+
+8. Select "Start Replay from Beginning" and hit "Start Replay".
+![Replay dialog](images/AEMReplayDialog.png)
+
+9. You will return to the queue overview and replay for the queue will go to "Pending Complete".
+![Replay Pending complete](images/ReplayPendingComplete.png)
+
+> Some messages will start appearing in this queue as the broker is looking through the replay log for any messages matching the queue's subscription and placing them in this queue.
+
+10. Let's head on over to our broker's `Try-Me` tab again and connect our queue consumer again.
+![Consume Replayed Messages](images/AEMTryMeConsumeReplayedMessages.png)
+
+> You should now see the messages you previously published and that you had already consumed appear again. How is that possible?<br>
+Magic of Replay.
+
+For more information about Replay and/or acknowledging messages, check the following links:<br>
+[Message Replay](https://docs.solace.com/Overviews/Message-Replay-Overview.htm?Highlight=replay)<br>
 [Acknowledging Messages](https://docs.solace.com/Solace-PubSub-Messaging-APIs/API-Developer-Guide/Acknowledging-Messages.htm)
 
 ## Summary
 
-You've now explored topic hierarchies and wildcards.
+You've now explored Event Message Replay and seen how an adminstrator can replay messages that were published previously for a consumer.
 
 Continue to - [Exercise 5 - Event-Driven in Action and Sample Architecture](../ex5/README.md)
