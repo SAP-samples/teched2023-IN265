@@ -86,7 +86,6 @@ Let's go ahead and publish another message.
 > What happened?<br>
 Did you receive multiple messages just now?<br>
 How is that possible?<br>
-<br>
 Well, the answer lies in the persistent delivery mode aka guaranteed messaging and the queue we set up earlier today. We also added a subscription to this queue to our topic.
 Now while we were happily experimenting with the `Try-Me` tab here publishing to our topic and seeing if we receive any messages, all those messages were simultaneously attracted to our queue by our previously set up subscription and stored there for later consumption.<br>
 Now when we started our Queue consumer on our Try-Me tab just now, we just received all those stored messages that were published between when we set up the queue and assigned the subscription and now.<br>
