@@ -67,12 +67,13 @@ SAP Integration Suite, advanced event mesh
 
 - [Exercise 3 - Persistent and Non-Persistent Quality of Service](exercises/ex3/)
 
-    - [Exercise 3.1 - Learn about Persistency and QoS](https://github.com/SAP-samples/teched2023-IN265/blob/main/exercises/ex3/README.md#Persistence)
-    - [Exercise 3.2 - Experimenting with Persistency](https://github.com/SAP-samples/teched2023-IN265/blob/main/exercises/ex3/README.md#Experimenting-with-Persistency)
+    - [Exercise 3.1 - Learn about Persistency and QoS](https://github.com/SAP-samples/teched2023-IN265/tree/main/exercises/ex3#exercise-31-learn-about-delivery-modes-persistency-and-quality-of-service)
+    - [Exercise 3.2 - Experimenting with Persistency](https://github.com/SAP-samples/teched2023-IN265/tree/main/exercises/ex3#experimenting-with-persistency)
 
 - [Exercise 4 - Event Replay](exercises/ex4/)
 
-    - [Exercise 4.1 - ]()
+    - [Exercise 4.1 - Learn about Replay](https://github.com/SAP-samples/teched2023-IN265/blob/main/exercises/ex4/README.md#exercise-41-learn-about)
+    - [Exercise 4.2 - Experimenting with Replay](https://github.com/SAP-samples/teched2023-IN265/blob/main/exercises/ex4/README.md#exercise-42-experimenting-with-replay)
 
 - [Exercise 5 - Event-Driven in Action and Sample Architecture](exercises/ex5/)
 

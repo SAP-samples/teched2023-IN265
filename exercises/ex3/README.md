@@ -1,6 +1,6 @@
 # Exercise 3 - Persistent and Non-Persistent
 
-After completing these steps you will have learned about ...
+After completing these steps you will have learned about delivery modes, persistency and quality of service.
 
 ## Exercise 3.1 Learn about delivery modes, persistency and quality of service
 
