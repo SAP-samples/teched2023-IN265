@@ -1,6 +1,6 @@
 # IN265 - Event-Driven Architecture with SAP Integration Suite, Advanced Event Mesh
 
-![Pic 1](/./images/IN265-1.jpeg)
+![Pic 1](images/IN265-1.jpeg)
 
 ## Description
 
@@ -10,7 +10,7 @@ In this session we will take a deep dive into SAP Integration Suite, advanced ev
 
 ## Overview
 
-![Pic 2](/./images/IN265-2.png)
+![Pic 2](images/IN265-2.png)
 
 SAP Integration Suite, advanced event mesh is a fully managed event streaming and management service that enables enterprise-wide and enterprise-grade event-driven architecture. It is a full blown, general purpose Event Mesh. AEM offers enterprise-grade performance, reliability, security and governance. It scales to very large use cases – and very means very very very in this case.
 
@@ -51,7 +51,7 @@ Preparation and Setup
 
 - [Getting Started](exercises/ex0/)
 
-SAP Integration Suite, advanced event mesh 
+SAP Integration Suite, advanced event mesh
 
 - [Exercise 1 - Explore SAP S/4HANA Integration Suite, advanced event mesh](exercises/ex1/)
 
@@ -67,8 +67,9 @@ SAP Integration Suite, advanced event mesh
 
 - [Exercise 3 - Persistent and Non-Persistent Quality of Service](exercises/ex3/)
 
-    - [Exercise 3.1 - ]()
- 
+    - [Exercise 3.1 - Learn about Persistency and QoS](https://github.com/SAP-samples/teched2023-IN265/blob/main/exercises/ex3/README.md#Persistence)
+    - [Exercise 3.2 - Experimenting with Persistency](https://github.com/SAP-samples/teched2023-IN265/blob/main/exercises/ex3/README.md#Experimenting-with-Persistency)
+
 - [Exercise 4 - Event Replay](exercises/ex4/)
 
     - [Exercise 4.1 - ]()
@@ -78,12 +79,12 @@ SAP Integration Suite, advanced event mesh
     - [Exercise 5.1 - A Distributed Smartphone Based Game](https://github.com/SAP-samples/teched2023-IN265/blob/main/exercises/ex5/README.md#exercise-51---a-distributed-smartphone-based-game)
     - [Exercise 5.2 - How to Build this Game using Advanced Event Mesh](https://github.com/SAP-samples/teched2023-IN265/blob/main/exercises/ex5/README.md#exercise-52-how-to-build-this-game-using-advanced-event-mesh)
     - [Exercise 5.3 - Let's play!](https://github.com/SAP-samples/teched2023-IN265/blob/main/exercises/ex5/README.md#exercise-53---lets-play)
-      
-## User Data and Password 
 
-In order to log into Advanced Event Mesh, you will use the email address and password for Advanced Event Mesh provided by the moderators. 
+## User Data and Password
 
- ## Background Material 
+In order to log into Advanced Event Mesh, you will use the email address and password for Advanced Event Mesh provided by the moderators.
+
+ ## Background Material
 
 A lot of material to get up to speed with SAP Integration Suite, advanced event mesh is available.
 
@@ -103,4 +104,3 @@ A lot of material to get up to speed with SAP Integration Suite, advanced event 
 
 ## License
 Copyright (c) 2023 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
-

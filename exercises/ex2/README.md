@@ -2,11 +2,11 @@
 
 After completing these steps you will have learned about topic hierarchies and wildcards and how to use them
 
-![Pic 1](/./images/ex2-1.png)
+![Pic 1](../../images/ex2-1.png)
 
 ## Exercise 2.1 Learn about Topic Hierarchies and Wildcards
 
-Advanced Event Mesh supports a hierarchical topic structure, which mean you can be very descriptive in defining your topic. Use it to describe the contents/intent of your message payload data. No need to use flat, coarse-grained topic labels like other brokers. 
+Advanced Event Mesh supports a hierarchical topic structure, which mean you can be very descriptive in defining your topic. Use it to describe the contents/intent of your message payload data. No need to use flat, coarse-grained topic labels like other brokers.
 
 ### Topics
 
@@ -31,19 +31,19 @@ Because published topics can be so variable and dynamic, subscribers can use wil
 
 Some examples of AEM topic subscriptions, and topics that they match:
 
-![Pic 2](/./images/ex2-2.png)
+![Pic 2](../../images/ex2-2.png)
 
 ## Exercise 2.2 Practice Topic Hierarchies and Wildcards using Try Me ! - Animal Edition
 
 Now that we have learned about topic hierarchies and have a great tool like Try Me ! at hand. let's play around with topic hierarchies.
 
-![Pic 5](/./images/ex2-5.png)
+![Pic 5](../../images/ex2-5.png)
 
 For that, we will use animal topics ...
 
 1. Go to Try Me! - go to the cluster manager, click on your broker and then on Try Me!
 
-![Pic 3](/./images/ex2-3.png)
+![Pic 3](../../images/ex2-3.png)
 
 2. In a next step connect both Publisher and Subscriber
 
@@ -51,11 +51,11 @@ Click on the connect buttons. Potentially you might still be connected from the 
 
 Clean up your Subscribed Topics so that you are not subscribing to any topics any more.
 
-![Pic 4](/./images/ex2-4.png)
+![Pic 4](../../images/ex2-4.png)
 
 3. Check out the hierarchical categorization of animals below
 
-![Pic 6](/./images/ex2-6.png)
+![Pic 6](../../images/ex2-6.png)
 
 Now try out different combinations of publishing to a topic and listening to a topic and see which events you receive.
 
@@ -63,7 +63,7 @@ Now try out different combinations of publishing to a topic and listening to a t
 
 For this subscribe the consumer to the topic animals/vertebrates/warm-blooded/mammals/zebra
 
-![Pic 7](/./images/ex2-7.png)
+![Pic 7](../../images/ex2-7.png)
 
 5. Send a Zebra.born event to the topic animals/vertebrates/warm-blooded/mammals/zebra
 
@@ -71,22 +71,22 @@ Go to the Publisher, add Zebra.born to the message field, put animals/vertebrate
 
 You should receive the message.
 
-![Pic 8](/./images/ex2-8.png)
+![Pic 8](../../images/ex2-8.png)
 
 6. Now we want to learn about all warm-blooded animals getting born
 
 - Go to the Subscriber
 - delete the topics your are listening to
 
-![Pic 9](/./images/ex2-9.png)
+![Pic 9](../../images/ex2-9.png)
 
 - Subscribe to animals/vertebrates/warm-blooded/asteriks/asteriks
 
-![Pic 10](/./images/ex2-10.png)
+![Pic 10](../../images/ex2-10.png)
 
 - Send a Falcon.born event to animals/vertebrates/warm-blooded/birds/falcon
 
-![Pic 11](/./images/ex2-11.png)
+![Pic 11](../../images/ex2-11.png)
 
 7. Try out a few combinations on your own and see what works and what does not
 
@@ -106,5 +106,3 @@ To make this easier for you, find the topics below for copy and paste.
 You've now explored topic hierarchies and wildcards.
 
 Continue to - [Exercise 3 - Persistent and Non-Persistent Quality of Service](../ex3/README.md)
-
-
