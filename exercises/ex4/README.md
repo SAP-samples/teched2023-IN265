@@ -2,7 +2,7 @@
 
 After completing these steps you will have learned about AEM's replay functionality.
 
-## Exercise 4.1 Learn about Event Replay
+## Exercise 4.1 Learn about Replay
 
 Message Replay is an AEM feature that allows an event broker to resend messages to new or existing clients that request them, hours or even days after those messages were first received by the event broker.
 
