@@ -83,7 +83,11 @@ SAP Integration Suite, advanced event mesh
 
 ## User Data and Password
 
-In order to log into Advanced Event Mesh, you will use the email address and password for Advanced Event Mesh provided by the moderators.
+In order to log into Advanced Event Mesh, you can use the below email address with XXX replaced with your group number.
+
+handson_XXX@education.cloud.sap (e.g. handson_012@education.cloud.sap)
+
+The password will be provided to you by the moderators.
 
  ## Background Material
 
