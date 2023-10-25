@@ -8,9 +8,13 @@ When you run through the exercise steps, you need to ensure that you use your pa
 
 Ensure you know the right number and use it. You can find the participant number on your table.
 
-## Password
+## User and Password
 
-The password will be provided by the workshop moderators.
+In order to log into Advanced Event Mesh, you can use the below email address with XXX replaced with your group number.
+
+handson_XXX@education.cloud.sap (e.g. handson_012@education.cloud.sap)
+
+The password will be provided to you by the moderators.
   
 ## Summary
 
