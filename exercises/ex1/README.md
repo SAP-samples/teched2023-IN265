@@ -136,7 +136,7 @@ HINT: Please note that this topic is very simple to facilitate this exercise. In
 
 ![Pic 20](../../images/ex1-20.png)  
 
-21. Switch back to the other tabe / the broker level tab and go to your queue and click on Summary
+21. Switch back to the other tab / the broker level tab and go to your queue and click on Summary
 
 ![Pic 21](../../images/ex1-21.png)  
 
