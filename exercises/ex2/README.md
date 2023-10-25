@@ -6,7 +6,7 @@ After completing these steps you will have learned about topic hierarchies and w
 
 ## Exercise 2.1 Learn about Topic Hierarchies and Wildcards
 
-Advanced Event Mesh supports a hierarchical topic structure, which mean you can be very descriptive in defining your topic. Use it to describe the contents/intent of your message payload data. No need to use flat, coarse-grained topic labels like other brokers.
+Advanced Event Mesh supports a hierarchical topic structure, which means you can be very descriptive in defining your topic. Use it to describe the contents/intent of your message payload data. No need to use flat, coarse-grained topic labels like other brokers.
 
 ### Topics
 
@@ -59,7 +59,7 @@ Clean up your Subscribed Topics so that you are not subscribing to any topics an
 
 Now try out different combinations of publishing to a topic and listening to a topic and see which events you receive.
 
-4. Register the consumer to listen to the Zebra topic - we just want to learn about Zebras geting born
+4. Register the consumer to listen to the Zebra topic - we just want to learn about Zebras getting born
 
 For this subscribe the consumer to the topic animals/vertebrates/warm-blooded/mammals/zebra
 
@@ -67,7 +67,7 @@ For this subscribe the consumer to the topic animals/vertebrates/warm-blooded/ma
 
 5. Send a Zebra.born event to the topic animals/vertebrates/warm-blooded/mammals/zebra
 
-Go to the Publisher, add Zebra.born to the message field, put animals/vertebrates/wam-blooded/mammals/zebra into the topic field and click Publish
+Go to the Publisher, add Zebra.born to the message field, put animals/vertebrates/warm-blooded/mammals/zebra into the topic field and click Publish
 
 You should receive the message.
 
@@ -76,7 +76,7 @@ You should receive the message.
 6. Now we want to learn about all warm-blooded animals getting born
 
 - Go to the Subscriber
-- delete the topics your are listening to
+- delete the topics you are listening to
 
 ![Pic 9](../../images/ex2-9.png)
 
