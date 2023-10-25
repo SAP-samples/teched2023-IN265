@@ -43,7 +43,7 @@ SAP Integration Suite, advanced event mesh features touched, some just shortly, 
 ## Requirements
 
 - Understanding the basics of event-driven architectures, namely events, queues, topics, event subscriptions ...
-- You would be able to execute most of the excercises without prior experience by just following the descriptions. For taking value out of the chance to explore Advanced Event Mesh some experience with event-driven architectures is recommended.
+- You would be able to execute most of the exercises without prior experience by just following the descriptions. For taking value out of the chance to explore Advanced Event Mesh some experience with event-driven architectures is recommended.
 
 ## Exercises
 
