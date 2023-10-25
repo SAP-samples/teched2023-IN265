@@ -6,14 +6,14 @@ You have worked hard in the last about 100 minutes. Now it is time for some fun.
 
 ## Exercise 5.1 - A Distributed Smartphone Based Game
 
-Use Case: Christian would like to develop a distributed smartphone-based game. He is a polular guy and has lots of friends - so he expects that up to 100 of his friends could participate in a session of the game. The lower limit would be two players. The game should support up to 4 teams. Since Christian loves racing games and is big on boats, he decides for a DRAGON BOAT RACE.
+Use Case: Christian would like to develop a distributed smartphone-based game. He is a popular guy and has lots of friends - so he expects that up to 100 of his friends could participate in a session of the game. The lower limit would be two players. The game should support up to 4 teams. Since Christian loves racing games and is big on boats, he decides for a DRAGON BOAT RACE.
 
 ### Details: Players need to
 
 - Connect
-- Discover / choose a race
+- Discover/choose a race
 - Participate by rowing (i.e. tap tap tap)
-- See progess and final results
+- See progress and final results
 
 ### Needed Components:
 
