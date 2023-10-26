@@ -36,52 +36,52 @@ In this section we are going to play a bit around with persistency to see what t
 So, let's open up the broker UI's `Try-Me` tab next.
 
 1. Go to the AEM Console and click on Cluster Manager.
-![AEM Console](images/AEMCloudConsoleSelectClusterManager.png)
+![AEM Console](images/ex3-1.png)
 
 2. Click on the same service you have used previously.
 ![AEM services](images/ex3-2.png)
 
 3. Go to the Management tab and click on the Queues tile.
-![AEM Manage Queues](images/AEMServiceManagement.png)
+![AEM Manage Queues](images/ex3-3.png)
 
 4. Switch to the `Try-Me` tab
-![AEM Broker Try-Me](images/AEMBrokerTryMeTab.png)
+![AEM Broker Try-Me](images/ex3-4.png)
 
 5. Open the connection details (">" next to "Connect" button), change the port in the URL from 1443 to 443, "Client Username" to `solace-cloud-client` and populate "Client Password" from the "Service Details" "Connect" tab (open up "Solace Web Messaging" and copy the password) from the AEM Cloud Console, then hit connect.
-![AEM Broker Connect](images/AEMBrokerTryMeConnection.png)
+![AEM Broker Connect](images/ex3-5.png)
 
 6. Your publisher should now be Connected.
-![Publisher connected](images/AEMTryMePublisherConnected.png)
+![Publisher connected](images/ex3-6.png)
 
 7. Enter the topic into the topic field for the publisher. Use BLR_topic_XXX as the topic, and replace XXX with your group/participant number. And publish one message as direct.
-![Publish 1](images/AEMTryMePublish1.png)
+![Publish 1](images/ex3-7.png)
 
 > Did you receive anything?<br>
 No, of course not. Our Subscriber is not connected. Let's go ahead and connect that one now.
 
 8. Hit Connect on the Subscriber side. Your Subscriber should now be connected.
-![Subscriber connected](images/AEMTryMeSubscriberConnected.png)
+![Subscriber connected](images/ex3-8.png)
 
 9. Enter the topic into the topic field for the subscriber. Use BLR_topic_XXX as the topic, and replace XXX with your group/participant number. And hit "Subscribe".
-![Subscriber subscribed](images/AEMTryMeSubscriberSubscribed.png)
+![Subscriber subscribed](images/ex3-9.png)
 
 > Did you receive anything now?<br>
 No, still not. Our subscriber is using direct/non-persistent mode to subscribe directly to the topic on the broker. There's no persistency endpoint configured, so we don't receive any messages that were published while we were not subscribed or connected.<br>
 Let's go ahead and publish another message.
 
 10. Hit publish one more time.
-![AEM Direct Message Received](images/AEMTryMeDirectMessageReceived.png)
+![AEM Direct Message Received](images/ex3-10.png)
 
 > Now we've received a message, because both our publisher and subscriber are connected at the same time! This is non-persistent messaging, sometimes also referred to as best-effort messaging. Publishers and Subscribers need to be connected at the same time and reachable so that the messages can be delivered immediately from memory (meaning no network issues). This is the fastest mode, but it's not guaranteed to be lossless.
 
 11. Publish a couple more messages, then clear your subscribers' messages and remove the topic subscription.
-![Subscriber clear](images/AEMTryMeSubscriberClear.png)
+![Subscriber clear](images/ex3-11.png)
 
 12. Click on `Bind to an endpoint to receive guaranteed messages`, then enter the queue name: BLR_*** (replace *** with your number) in the field for the queue.
-![Bind to endpoint](images/AEMTryMeBindToEndpoint.png)
+![Bind to endpoint](images/ex3-12.png)
 
 13. Click on `Start Consume`.
-![Consume from queue](images/AEMTryMeConsumeFromQueue.png)
+![Consume from queue](images/ex3-13.png)
 
 > What happened?<br>
 Did you receive multiple messages just now?<br>
