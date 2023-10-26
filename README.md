@@ -97,6 +97,7 @@ A lot of material to get up to speed with SAP Integration Suite, advanced event 
 
     - [SAPs Event-Driven Ecosystem](https://blogs.sap.com/2022/09/01/saps-event-driven-ecosystem-revisited/)
     - [Advanced Event Mesh](https://blogs.sap.com/2022/10/28/turn-your-erp-into-a-team-player-introducing-sap-integration-suite-advanced-event-mesh/ )
+    - [Advanced Event Mesh Details]([https://blogs.sap.com/2022/09/01/saps-event-driven-ecosystem-revisited/](https://blogs.sap.com/2023/10/26/sap-advanced-event-mesh-create-your-first-event-broker/))
 
 - Videos
 
