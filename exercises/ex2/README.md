@@ -65,6 +65,8 @@ Now try out different combinations of publishing to a topic and listening to a t
 > 
 > Instead of animals/vertebrates/warm-blooded/mammals/zebra
 > publish to / listen to XXX/animals/vertebrates/warm-blooded/mammals/zebra
+> where you replace XXX with your number 
+> 
 
 4. Register the consumer to listen to the Zebra topic - we just want to learn about Zebras getting born
 
