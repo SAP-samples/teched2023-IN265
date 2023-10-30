@@ -59,6 +59,12 @@ Clean up your Subscribed Topics so that you are not subscribing to any topics an
 
 Now try out different combinations of publishing to a topic and listening to a topic and see which events you receive.
 
+> Note, there are two options for you to do the below: if you all publish to the same topic, others will receive your message as well. Which is good since this is the concept of topics. If you want to play around just for yourself, add your number to the topic in front, just make sure you listen to it as well.
+>
+> Instead of animals/vertebrates/warm-blooded/mammals/zebra
+> listen to XXX/animals/vertebrates/warm-blooded/mammals/zebra
+> 
+
 4. Register the consumer to listen to the Zebra topic - we just want to learn about Zebras getting born
 
 For this subscribe the consumer to the topic animals/vertebrates/warm-blooded/mammals/zebra
