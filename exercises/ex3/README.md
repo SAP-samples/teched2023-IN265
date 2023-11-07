@@ -47,7 +47,8 @@ So, let's open up the broker UI's `Try-Me` tab next.
 4. Switch to the `Try-Me` tab
 ![AEM Broker Try-Me](images/ex3-4.png)
 
-5. Open the connection details (">" next to "Connect" button), change the port in the URL from 1443 to 443, "Client Username" to `solace-cloud-client` and populate "Client Password" from the "Service Details" "Connect" tab (open up "Solace Web Messaging" and copy the password) from the AEM Cloud Console, then hit connect.
+5. Open the connection details (">" next to "Connect" button). You will need to populate some of these details with the connection details from the "Connect" tab in the "Service Details"" of the AEM console. This Try-Me tab uses "Solace Web Messaging" to connect to the broker, so we will have to open that section to get our connectivity details.<br>
+Change the port in the URL from 1443 to the port shown on the "Connect" tab e.g. 443 or 7443 (open up "Solace Web Messaging" to check), set "Client Username" to `solace-cloud-client` and populate "Client Password" from the "Connect" tab (open up "Solace Web Messaging" and copy the password) from the AEM Cloud Console, then hit connect.
 ![AEM Broker Connect](images/ex3-5.png)
 
 6. Your publisher should now be Connected.
